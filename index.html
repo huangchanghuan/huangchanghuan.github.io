@@ -6,5 +6,6 @@ title: 我的Blog
     <a class="card-link" href="/categories/photos/">Photos</a><a class="card-link" href="/categories/project.html">Projects</a>
 </div>
 　　　　{% for post in site.posts %}
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 　　　　        　{{ post.content }}
 　　　　{% endfor %}
