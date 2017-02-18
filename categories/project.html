@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    测试
-</body>
-</html>
+---
+layout: default
+title: 我的Blog
+---
+<div class="card">
+    <a class="card-link" href="/categories/photos/">Photos</a><a class="card-link" href="/categories/project.html">Projects</a>
+</div>
+　　　　{% for post in site.posts %}
+　　　　        　{{ post }}
+　　　　{% endfor %}
