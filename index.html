@@ -3,7 +3,7 @@ layout: default
 title: huangchanghuan.com
 ---
 {% for category in site.categories %}
-{% if  {{category[0]}}=='project' %}
+{% if  {{ category | first }}=='project' %}
     <h2>{{category[0]}}{{ category | first }}</h2>
     </span>{{ category | last | size }}</span>
     <ul class="arc-list">
