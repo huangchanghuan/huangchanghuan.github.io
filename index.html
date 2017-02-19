@@ -4,8 +4,8 @@ title: huangchanghuan.com
 ---
 
 　　　　{% for post in site.posts %}
-
+        {% if post.category=='project' %}
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.category }}</a>
 　　　　        　{{ post.content }}
-
+        {% endif %}
 　　　　{% endfor %}
