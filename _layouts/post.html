@@ -32,8 +32,8 @@
         <nav>
             <ul class="nav nav-pills">
                 <li role="presentation"><a href="https://huangchanghuan.github.io/">Home</a></li>
-                <li role="presentation"   class="{{% if page.category=='projects' %}}active{{% endif %}}"><a href="https://huangchanghuan.github.io/categories/projects">PROJECT</a></li>
-                <li role="presentation"  class="{{% if page.category=='photos' %}}active{{% endif %}}"><a href="https://huangchanghuan.github.io/categories/photos">PHONE</a></li>
+                <li role="presentation"   {{% if page.category=='projects' %}}class="active"{{% endif %}}><a href="https://huangchanghuan.github.io/categories/projects">PROJECT</a></li>
+                <li role="presentation"  {{% if page.category=='photos' %}}class="active"{{% endif %}}><a href="https://huangchanghuan.github.io/categories/photos">PHONE</a></li>
                 <li role="presentation"><a href="#">ABOUT</a></li>
             </ul>
         </nav>
