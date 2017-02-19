@@ -2,12 +2,12 @@
 layout: default
 title: huangchanghuan.com
 ---
-<div class="card">
-    <a class="card-link" href="/categories/photos/">Photos</a><a class="card-link" href="/categories/project.html">Projects</a>
-</div>
-　　　　{% for post in site.posts %}
-{{ post.category }}
-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.mytitle }}</a>
-　　　　        　{{ post.content }}
-
-　　　　{% endfor %}
+{% for category in site.categories %}
+<h2>{{ category | first }}</h2>
+</span>{{ category | last | size }}</span>
+<ul class="arc-list">
+    {% for post in category.last %}
+    <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
