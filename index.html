@@ -7,7 +7,7 @@ title: huangchanghuan.com
 </div>
 　　　　{% for post in site.posts %}
 
-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.year }}</a>
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.custom_category }}</a>
 　　　　        　{{ post.content }}
 
 　　　　{% endfor %}
