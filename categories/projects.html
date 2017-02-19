@@ -6,7 +6,7 @@ title: MyProjects-HuangChanghuan.com
             {% if  category[0]=='projects' %}
                 {% for post in category.last %}
                     <article class="card article">
-                        <h4 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
+                        <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
                         <p class="article-attrs">
                             <span><i class="fa fa-clock-o"></i>{{ post.date | date_to_string }}</span>
                             <span><i class="fa fa-book"></i><a href="/categories/projects">{{category[0]}}</a></span>
