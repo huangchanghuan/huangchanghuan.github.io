@@ -32,8 +32,8 @@
         <nav>
             <ul class="nav nav-pills">
                 <li role="presentation" {% if page.title=='huangchanghuan.com' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/">Home</a></li>
-                <li role="presentation"   {% if page.category=='projects' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/projects">PROJECT</a></li>
-                <li role="presentation"  {% if page.category=='photos' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/photos">PHONE</a></li>
+                <li role="presentation"   {% if page.category=='projects' %}class="active"{% endif %}{% if page.title=='MyProjects' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/projects">PROJECT</a></li>
+                <li role="presentation"  {% if page.category=='photos' %}class="active"{% endif %}{% if page.category=='MyPhotos' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/photos">PHONE</a></li>
                 <li role="presentation"><a href="#">ABOUT</a></li>
             </ul>
         </nav>
@@ -49,7 +49,7 @@
             <span class="text-center center-block">Web Development</span>
             </div>
             <ul class="list-unstyled user-details">
-                <li class="location text-center"><i class="fa fa-location-arrow"></i>Guangzhou City,Guangdong</li>
+                <li class="location text-center"><i class="fa fa-location-arrow"></i>Guangzhou,Guangdong Province</li>
                 <li class="email text-center"><i class="fa fa-envelope"></i><a href="mailto:CHANGHUAN.HUANG@foxmail.com">changhuan.huang@fox.com</a></li>
             </ul>
         </div>
