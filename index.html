@@ -4,7 +4,7 @@ title: huangchanghuan.com
 ---
 {% for category in site.categories %}
 <!--{% if  {{ category | first }}=='project' %}-->
-    <h2>category[0]{{ category | first }}</h2>
+    <h2>{{category[0]}}{{ category | first }}</h2>
     </span>{{ category | last | size }}</span>
     <ul class="arc-list">
         {% for post in category.last %}
