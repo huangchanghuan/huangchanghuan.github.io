@@ -2,18 +2,10 @@
 layout: default
 title: huangchanghuan.com
 ---
-{% for category in site.categories %}
-{% if  {{category[0]}}=={{category[0]}} %}
-测试成功
-{% endif %}
-    <h2>{{category[0]}}{{ category | first }}</h2>
-    </span>{{ category | last | size }}</span>
-    <ul class="arc-list">
-        {% for post in category.last %}
-        <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
 
-{% endfor %}
+　　　　{% for post in site.posts %}
 
-===我是分隔线====
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.category }}</a>
+　　　　        　{{ post.content }}
+
+　　　　{% endfor %}
