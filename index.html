@@ -3,7 +3,9 @@ layout: default
 title: huangchanghuan.com
 ---
 {% for category in site.categories %}
-
+{% if  {{category[0]}}=={{category[0]}} %}
+测试成功
+{% endif %}
     <h2>{{category[0]}}{{ category | first }}</h2>
     </span>{{ category | last | size }}</span>
     <ul class="arc-list">
@@ -15,6 +17,3 @@ title: huangchanghuan.com
 {% endfor %}
 
 ===我是分隔线====
-{% if  'project'=='project' %}
-测试成功
-{% endif %}
