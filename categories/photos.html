@@ -1,0 +1,11 @@
+---
+layout: default
+title: All Photo
+---
+{% for category in site.categories %}
+{% if  category[0]=='photo' %}
+{% for post in category.last %}
+{{ post.content}}
+{% endfor %}
+{% endif %}
+{% endfor %}

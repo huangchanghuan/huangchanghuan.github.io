@@ -1,12 +1,14 @@
 ---
 layout: default
-title: city-picker
-category: project
+title: All Projects
 ---
+    {% for category in site.categories %}
+            {% if  category[0]=='project' %}
+                {% for post in category.last %}
 <article class="card article">
-    <h4 class="article-title">city-picker</h4>
+    <h4 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
     <p class="article-attrs">
-        <span><i class="fa fa-clock-o"></i>July 16, 2016</span>
+        <span><i class="fa fa-clock-o"></i>{{ post.date | date_to_string }}</span>
         <span><i class="fa fa-book"></i><a href="/categories/projects">Projects</a></span>
     </p>
     <p>Picker.js is a JavaScript library for picking date and time.</p>
@@ -16,8 +18,8 @@ category: project
         <li><a href="https://github.com/huangchanghuan/city-picker" target="_blank" rel="external">View the GitHub project</a></li>
         <li><a href="https://huangchanghuan.github.io/city-picker/" target="_blank" rel="external">Website Demo</a></li>
     </ul>
-    <a href="/2016/07/16/picker.js/">View <i class="fa fa-angle-right"></i></a>
+    <a href="{{site.baseurl}}{{post.url}}">View <i class="fa fa-angle-right"></i></a>
 </article>
-
-
-
+{% endfor %}
+            {% endif %}
+    {% endfor %}
