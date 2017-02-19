@@ -3,9 +3,7 @@ layout: default
 title: huangchanghuan.com
 ---
 {% for category in site.categories %}
-    {% if  category[0]=='project' %}
             {% for post in category.last %}
               {{ post.content}}
             {% endfor %}
-    {% endif %}
 {% endfor %}
