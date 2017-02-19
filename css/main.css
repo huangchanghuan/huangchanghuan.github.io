@@ -4,10 +4,11 @@
     width:220px;
 }
 .user-details{
-    border-top:1px solid #eee;
+    /*border-top:1px solid #eee;*/
     /*border-bottom:1px solid #0a03ff;*/
-    margin: 16px 0;
-    padding-top:16px; ;
+    /*margin: 16px 0;*/
+    padding:16px 0;
+    /*border-bottom:1px solid #eee;*/
 }
 
 .location{
