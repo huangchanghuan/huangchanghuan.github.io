@@ -1,0 +1,43 @@
+
+
+.user-img{
+    width:220px;
+}
+.user-details{
+    border-top:1px solid #eee;
+    /*border-bottom:1px solid #0a03ff;*/
+    margin: 16px 0;
+    padding-top:16px; ;
+}
+
+.location{
+    /*max-width: 120px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.email{
+    /*max-width: 120px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.star-main{
+    margin-top: 10px;
+}
+.main-right{
+    border-top:1px solid #eee;
+}
+.footer {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+    border-top: 1px solid #eee;
+}
