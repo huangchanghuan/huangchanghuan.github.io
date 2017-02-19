@@ -11,9 +11,10 @@ title: huangchanghuan.com
         <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
-    {% if  {{category[0]}}=='project' %}
-            测试成功
-    {% endif %}
+
 {% endfor %}
 
 ===我是分隔线====
+{% if  'project'=='project' %}
+测试成功
+{% endif %}
