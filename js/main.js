@@ -2,6 +2,11 @@
   'use strict';
   var document = window.document;
   var Viewer = window.Viewer;
+    console.log(navigator.userAgent);
+    if(navigator.userAgent.indexOf('UBrowser') > -1) {
+        alert("这是UCBrower");
+    }
+
   if( ("onhashchange" in window) && ((typeof document.documentMode==="undefined") || document.documentMode==8)) {//监控url的hash变化.(图片打开时候hash会变化)
       // 浏览器支持onhashchange事件
       window.onhashchange = hashChangeFire;
@@ -30,8 +35,7 @@
     var i;
     for (i = 0; i < length; i++) {
       viewers.push(new Viewer(galleries.item(i), {
-        toolbar: false,
-        navbar:false,
+        toolbar: 2,
         url: function () {
           return this.src.replace('/thumbnails', '');
         },
