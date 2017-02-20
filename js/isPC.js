@@ -16,6 +16,6 @@ function IsPC() {
 (function(){
     if(!IsPC()){//如果是手机端
         var main_right=document.getElementsByClassName("main-right");
-        main_right[0].style.padding= "0"
+        main_right[0].style.padding= "0 34px"
     }
 })();
