@@ -15,9 +15,14 @@ function IsPC() {
 
 (function(){
     if(IsPC()){//如果是电脑
-        //main-right 样式
+        //所有main-right 样式
         var main_right=document.getElementsByClassName("main-right");
         main_right[0].style.padding= "0 20%"
+        //设置首页的main-right样式
+        var main_right = document.getElementsByClassName("index-main");
+        if(main_right){
+            main_right[0].style.padding="0 44px"
+        }
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
         father_container[0].style.width = "76%";
