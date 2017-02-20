@@ -20,9 +20,7 @@ function IsPC() {
         main_right[0].style.padding= "0 20%"
         //设置首页的main-right样式
         var main_right = document.getElementsByClassName("index-main");
-        console.log(main_right);
-        console.log(main_right[0]);
-        if(main_right){
+        if(main_right[0]){
             main_right[0].style.padding="0 44px"
         }
         //contain 样式
