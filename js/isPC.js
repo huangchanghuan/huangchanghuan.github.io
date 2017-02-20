@@ -28,5 +28,11 @@ function IsPC() {
         father_container[0].style.width = "76%";
         //header宽度
         $('#header-nav li a').attr("style","padding:10px 15px")
+        //显示页面,显示友好
+        father_container[0].style.display = "";
+    }else{
+        //显示页面,显示友好
+        var father_container = document.getElementsByClassName("father-container");
+        father_container[0].style.display = "";
     }
 })();
