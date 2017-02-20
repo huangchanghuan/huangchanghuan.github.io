@@ -1,5 +1,7 @@
 
-
+.container{
+    width: 76%;
+}
 .user-img{
     width:220px;
 }
@@ -30,6 +32,7 @@
     margin-top: 10px;
 }
 .main-right{
+    padding: 0 44px;
     border-top:1px solid #eee;
 }
 .footer {
