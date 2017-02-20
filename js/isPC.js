@@ -17,7 +17,7 @@ function IsPC() {
     if(IsPC()){//如果是电脑
         //main-right 样式
         var main_right=document.getElementsByClassName("main-right");
-        main_right[0].style.padding= "100%"
+        main_right[0].style.padding= "0 20%"
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
         father_container[0].style.width = "76%";
