@@ -22,42 +22,17 @@
 </head>
 <body>
 <div class="container">
-<!--[if lt IE 9]>
-<p class="browserupgrade">
-    <span class="container">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</span>
-</p>
-<![endif]-->
+    <!--[if lt IE 9]>
+    <p class="browserupgrade">
+        <span class="container">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</span>
+    </p>
+    <![endif]-->
     <!--header-->
     {% include sunstar-header.html %}
-<!--main-->
-<div id="content" class="row clearfix star-main">
-    <!--main left-->
-    <div class="col-md-3 column">
-        <img alt="220x220" src="http://www.runoob.com/try/bootstrap/layoutit/v3/default3.jpg" class="img-rounded center-block user-img"/>
-        <div  class="center-block">
-            <div class="user_name center-block">
-            <h3 class="text-center">Huang Changhuan</h3>
-            <span class="text-center center-block">Web Development</span>
-            </div>
-            <ul class="list-unstyled user-details">
-                <li class="email text-center"><i class="fa fa-envelope"></i><a href="mailto:CHANGHUAN.HUANG@foxmail.com">changhuan.huang@fox.com</a></li>
-                <li class="location text-center"><i class="fa fa-location-arrow"></i>Guangzhou,Guangdong Province</li>
-            </ul>
-        </div>
-    </div>
-    <!--main right-->
-    <div class="col-md-9 column main-right">
-        {{content}}
-    </div>
-</div>
-<!--foot-->
-<div id="footer" class="footer">
-        <ul class="list-inline text-center">
-            <li><a href="https://github.com/huangchanghuan" title="GitHub"><i class="fa fa-github"></i><span class="">GitHub</span></a></li>
-            <li><a href="https://twitter.com/Peter2464375449" title="Twitter"><i class="fa fa-twitter"></i><span class="">Twitter</span></a></li>
-        </ul>
-        <p class="text-center">&copy; 2016 <a href="https://huangchanghuan.github.io/">Huang Changhuan</a></p>
-</div>
+    <!--main-->
+    {% include sunstar-main.html %}
+    <!--foot-->
+    {% include sunstar-foot.html %}
 </div>
 </body>
 </html>
