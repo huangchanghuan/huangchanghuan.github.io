@@ -35,7 +35,11 @@
     var i;
     for (i = 0; i < length; i++) {
       viewers.push(new Viewer(galleries.item(i), {
-        toolbar: 2,
+        toolbar: true,
+      // Enable to move the image
+      movable: true,
+      // Enable to zoom the image
+      zoomable: true,
         url: function () {
           return this.src.replace('/thumbnails', '');
         },
