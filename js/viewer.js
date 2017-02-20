@@ -1,11 +1,11 @@
 /*!
- * Viewer.js v0.6.1
+ * Viewer.js v0.6.0
  * https://github.com/fengyuanchen/viewerjs
  *
  * Copyright (c) 2017 Fengyuan Chen
  * Released under the MIT license
  *
- * Date: 2017-02-18T06:33:56.595Z
+ * Date: 2017-01-24T06:44:37.661Z
  */
 
 (function (global, factory) {
@@ -100,6 +100,16 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
 };
 
+
+
+
+
+
+
+
+
+
+
 var classCallCheck = function (instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
@@ -116,12 +126,19 @@ var createClass = function () {
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
+
   return function (Constructor, protoProps, staticProps) {
     if (protoProps) defineProperties(Constructor.prototype, protoProps);
     if (staticProps) defineProperties(Constructor, staticProps);
     return Constructor;
   };
 }();
+
+
+
+
+
+
 
 var get = function get(object, property, receiver) {
   if (object === null) object = Function.prototype;
@@ -147,6 +164,22 @@ var get = function get(object, property, receiver) {
     return getter.call(receiver);
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var set = function set(object, property, value, receiver) {
   var desc = Object.getOwnPropertyDescriptor(object, property);
@@ -926,7 +959,6 @@ var EVENT_MOUSEMOVE = PointerEvent ? 'pointermove' : 'mousemove touchmove';
 var EVENT_MOUSEUP = PointerEvent ? 'pointerup pointercancel' : 'touchend touchcancel mouseup';
 var EVENT_WHEEL = 'wheel mousewheel DOMMouseScroll';
 var EVENT_KEYDOWN = 'keydown';
-var EVENT_DRAGSTART = 'dragstart';
 var EVENT_CLICK = 'click';
 var EVENT_RESIZE = 'resize';
 var EVENT_VIEW = 'view';
@@ -949,7 +981,6 @@ var events = {
 
     addListener(viewer, EVENT_CLICK, self.onClick = proxy(self.click, self));
     addListener(viewer, EVENT_WHEEL, self.onWheel = proxy(self.wheel, self));
-    addListener(viewer, EVENT_DRAGSTART, self.onDragstart = proxy(self.dragstart, self));
     addListener(self.canvas, EVENT_MOUSEDOWN, self.onMousedown = proxy(self.mousedown, self));
     addListener(document, EVENT_MOUSEMOVE, self.onMousemove = proxy(self.mousemove, self));
     addListener(document, EVENT_MOUSEUP, self.onMouseup = proxy(self.mouseup, self));
@@ -961,15 +992,17 @@ var events = {
     var options = self.options;
     var element = self.element;
     var viewer = self.viewer;
+
     if (isFunction(options.view)) {
       removeListener(element, EVENT_VIEW, options.view);
     }
+
     if (isFunction(options.viewed)) {
       removeListener(element, EVENT_VIEWED, options.viewed);
     }
+
     removeListener(viewer, EVENT_CLICK, self.onClick);
     removeListener(viewer, EVENT_WHEEL, self.onWheel);
-    removeListener(viewer, EVENT_DRAGSTART, self.onDragstart);
     removeListener(self.canvas, EVENT_MOUSEDOWN, self.onMousedown);
     removeListener(document, EVENT_MOUSEMOVE, self.onMousemove);
     removeListener(document, EVENT_MOUSEUP, self.onMouseup);
@@ -1261,11 +1294,6 @@ var handlers = {
         break;
 
       // No default
-    }
-  },
-  dragstart: function dragstart(e) {
-    if (e.target.tagName.toLowerCase() === 'img') {
-      e.preventDefault();
     }
   },
   mousedown: function mousedown(event) {
@@ -2261,7 +2289,9 @@ var AnotherViewer = void 0;
 var Viewer = function () {
   function Viewer(element, options) {
     classCallCheck(this, Viewer);
+
     var self = this;
+
     self.element = element;
     self.options = extend({}, DEFAULTS, isPlainObject(options) && options);
     self.isImg = false;
