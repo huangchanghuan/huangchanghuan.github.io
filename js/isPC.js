@@ -21,5 +21,7 @@ function IsPC() {
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
         father_container[0].style.width = "100%";
+        //header宽度
+        $('#header-nav li a').attr("style","padding:4px 4px")
     }
 })();
