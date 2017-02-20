@@ -1,6 +1,9 @@
 
-.container{
-    width: 76%;
+.father-container{
+    width: 100%;
+}
+#header-nav>li>a{
+    padding:7px 7px
 }
 .user-img{
     width:220px;
@@ -12,7 +15,6 @@
     padding:16px 0;
     /*border-bottom:1px solid #eee;*/
 }
-
 .location{
     /*max-width: 120px;*/
     overflow: hidden;
@@ -20,7 +22,6 @@
     white-space: nowrap;
     vertical-align: top;
 }
-
 .email{
     /*max-width: 120px;*/
     overflow: hidden;
