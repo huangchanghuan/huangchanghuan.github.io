@@ -50,6 +50,10 @@
               }else{//存在hash
                   history.go(-1)
               }
+          },
+          show:function (e) {
+              var showPic = window.location.href + "#showPic";
+              window.location.href=showPic;
           }
       }));
     }

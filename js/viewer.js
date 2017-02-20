@@ -1391,8 +1391,6 @@ var handlers = {
 var methods = {
   // Show the viewer (only available in modal mode)
   show: function show() {
-      var showPic = window.location.href + "#showPic";
-      window.location.href=showPic;
     var self = this;
     var options = self.options;
     var element = self.element;
