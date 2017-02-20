@@ -1,0 +1,10 @@
+<div id="header" class="header clearfix">
+    <nav>
+        <ul class="nav nav-pills">
+            <li role="presentation" {% if page.title=='Home-HuangChanghuan.com' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/">Home</a></li>
+            <li role="presentation"   {% if page.category=='projects' %}class="active"{% endif %}{% if page.title=='MyProjects-HuangChanghuan.com' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/projects">Project</a></li>
+            <li role="presentation"  {% if page.category=='photos' %}class="active"{% endif %}{% if page.title=='MyPhotos-HuangChanghuan.com' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/categories/photos">Photo</a></li>
+            <li role="presentation" {% if page.title=='About-HuangChanghuan.com' %}class="active"{% endif %}><a href="https://huangchanghuan.github.io/about">About</a></li>
+        </ul>
+    </nav>
+</div>
