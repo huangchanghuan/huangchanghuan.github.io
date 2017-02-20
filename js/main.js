@@ -14,10 +14,10 @@
     var length = galleries ? galleries.length : 0;
     var viewers = [];
     var i;
-
     for (i = 0; i < length; i++) {
       viewers.push(new Viewer(galleries.item(i), {
-        toolbar: 2,
+          toolbar: false,
+          navbar:false,
         url: function () {
           return this.src.replace('/thumbnails', '');
         }
