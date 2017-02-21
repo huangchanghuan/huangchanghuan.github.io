@@ -37,9 +37,9 @@
       viewers.push(new Viewer(galleries.item(i), {
         toolbar: true,
       // Enable to move the image
-      movable: true,
+      movable: false,
       // Enable to zoom the image
-      zoomable: true,
+      zoomable: false,
         url: function () {
           return this.src.replace('/thumbnails', '');
         },
