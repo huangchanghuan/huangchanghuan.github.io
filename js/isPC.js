@@ -23,6 +23,12 @@ function IsPC() {
         if(main_right[0]){
             main_right[0].style.padding="0 44px"
         }
+        //设置图片样式
+        var article_gallery = document.getElementsByClassName("article-gallery");
+        if(article_gallery[0]){
+            article_gallery[0].style.width="360px"
+            article_gallery[0].style.margin="0"
+        }
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
         father_container[0].style.width = "76%";

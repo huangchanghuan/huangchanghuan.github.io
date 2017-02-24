@@ -51,9 +51,7 @@
 /*
 article
  */
-.article-gallery {
-    width:360px;
- }
+.article-gallery { margin: 1em auto; }
 .article-gallery > ul {
     margin-bottom: 0;
     padding-left: 0;
