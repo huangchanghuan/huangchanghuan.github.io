@@ -52,23 +52,12 @@
 article
  */
 .article-gallery { margin: 1em auto; }
-.article-gallery > ul {
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none; }
-.article-gallery > ul:before, .article-gallery > ul:after {
-    content: " ";
-    display: table; }
-.article-gallery > ul:after {
-    clear: both; }
-.article-gallery > ul > li {
+.article-gallery a{
+    display:inline-block;
+    width: 33.3333%;
     float: left;
-    width: 33.33333%;
-    overflow: hidden;
-    background-color: #fcfcfc;
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff; }
-.article-gallery > ul > li img {
+}
+.article-gallery img {
     display: block;
     width: 100%;
     cursor: -webkit-zoom-in;
