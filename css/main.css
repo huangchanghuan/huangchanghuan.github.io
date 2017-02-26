@@ -68,7 +68,7 @@ article
     background-color: #fcfcfc;
     border-right: 1px solid #fff;
     border-bottom: 1px solid #fff; }
-.article-gallery > ul > li > img {
+.article-gallery > ul > li img {
     display: block;
     width: 100%;
     cursor: -webkit-zoom-in;
