@@ -1,4 +1,5 @@
 (function () {
+    console.log("phototswips.js执行了")
     var initPhotoSwipeFromDOM = function (gallerySelector) {
         var parseThumbnailElements = function (el) {
             var thumbElements = el.childNodes,
