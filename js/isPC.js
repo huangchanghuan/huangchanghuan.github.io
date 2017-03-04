@@ -22,6 +22,7 @@ function IsPC() {
         var main_right = document.getElementsByClassName("index-main");
         if(main_right[0]){
             main_right[0].style.padding="0 44px"
+            main_right[0].style.background="#FFFFFF";
         }
         //设置图片样式
         var article_gallery = document.getElementsByClassName("article-gallery");

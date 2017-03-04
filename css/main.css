@@ -1,3 +1,7 @@
+body{
+
+}
+
 
 .father-container{
     display: none;
@@ -31,10 +35,12 @@
     vertical-align: top;
 }
 .star-main{
+
     margin-top: 10px;
 }
 .main-right{
-    padding: 0 28px;
+    padding: 0 0 10px 0;
+    background-color: #f2f2f2;
     border-top:1px solid #eee;
 }
 .footer {
@@ -62,3 +68,13 @@ article
     width: 100%;
     cursor: -webkit-zoom-in;
     cursor: zoom-in; }
+
+.article-wrap{
+    padding:1px 10px;
+    margin-top: 10px;
+    background-color:#fff;
+}
+
+.article-wrap h2{
+    margin-top:10px;
+}
