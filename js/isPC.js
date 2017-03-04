@@ -15,6 +15,7 @@ function IsPC() {
 
 (function(){
     if(IsPC()){//如果是电脑
+        console.log("the device  is PC !")
         //所有main-right 样式
         var main_right=document.getElementsByClassName("main-right");
         main_right[0].style.padding= "0 20%"
@@ -38,6 +39,7 @@ function IsPC() {
         //显示页面,显示友好
         father_container[0].style.display = "block";
     }else{
+        console.log("the device  is phone !")
         //显示页面,显示友好
         var father_container = document.getElementsByClassName("father-container");
         father_container[0].style.display = "block";
