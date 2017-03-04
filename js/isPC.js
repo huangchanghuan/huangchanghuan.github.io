@@ -18,18 +18,18 @@ function IsPC() {
         console.log("the device  is PC !")
         //所有main-right 样式
         var main_right=document.getElementsByClassName("main-right");
-        main_right[0].style.padding= "0 20%"
+        main_right[0].style.padding = "0 20%";
+        main_right[0].style.background="#FFFFFF";
         //设置首页的main-right样式
         var main_right = document.getElementsByClassName("index-main");
         if(main_right[0]){
-            main_right[0].style.padding="0 44px"
-            main_right[0].style.background="#FFFFFF";
+            main_right[0].style.padding = "0 44px";
         }
         //设置图片样式
         var article_gallery = document.getElementsByClassName("article-gallery");
         if(article_gallery[0]){
-            article_gallery[0].style.width="360px"
-            article_gallery[0].style.margin="0"
+            article_gallery[0].style.width = "360px";
+            article_gallery[0].style.margin = "0";
         }
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
