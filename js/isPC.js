@@ -29,7 +29,6 @@ function IsPC() {
         var article_gallery = document.getElementsByClassName("article-gallery");
         if(article_gallery[0]){
             article_gallery[0].style.width = "360px";
-            article_gallery[0].style.margin = "0";
         }
         //contain 样式
         var father_container = document.getElementsByClassName("father-container");
