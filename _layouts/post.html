@@ -14,7 +14,7 @@
     <!--header-->
     {% include sunstar-header.html %}
     <!--main-->
-    {% include sunstar-main-right.html %}
+    {% include sunstar-main-post.html %}
     <!--foot-->
     {% include sunstar-foot.html %}
     {% include sunstar-photoswipe.html %}
@@ -23,4 +23,13 @@
 <script src="/js/main.js"></script>
 <script src="/js/photoSwipes-style.js"></script>
 <script src="/js/isPC.js"></script>
+<script>
+    $(function () {
+        $(".article-list").html($("#markdown-toc").html());
+        $("#markdown-toc").hide();
+    })
+
+
+
+</script>
 </html>

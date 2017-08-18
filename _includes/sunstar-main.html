@@ -1,20 +1,51 @@
 <div id="content" class="row clearfix star-main">
-    <!--main left-->
-    <div class="col-md-4 column">
-        <img alt="220x220" src="/photos/huangchanghuan/huangchanghuan.jpg" class="img-rounded center-block user-img"/>
-        <div  class="center-block">
-            <div class="user_name center-block">
-                <h3 class="text-center">Huang Changhuan</h3>
-                <span class="text-center center-block">Web Development</span>
-            </div>
-            <ul class="list-unstyled user-details">
-                <li class="email text-center"><i class="fa fa-envelope"></i><a href="mailto:CHANGHUAN.HUANG@foxmail.com">CHANGHUAN.HUANG@foxmail.com</a></li>
-                <li class="location text-center"><i class="fa fa-location-arrow"></i>GuangzhouCity,Guangdong Province</li>
-            </ul>
-        </div>
-    </div>
     <!--main right-->
-    <div class="col-md-8 column main-right index-main">
+    <div class="col-md-8 column main-right index-main" >
         {{content}}
     </div>
+    <!--main left-->
+    <div class="col-md-4 column main-left" >
+        <div class="row-fluid">
+            <div class="span12">
+                <h4 class="leaf_h">
+                    近期文章
+                </h4>
+                <ul class="leaf_class">
+                    {% for post in site.posts  limit:5  %}
+                        <li>
+                            <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <h4 class="leaf_h">
+                    标签
+                </h4>
+                <div class="leaf_class">
+                    {% for tag in site.tags %}
+                        <a href="/tags/{{ tag[0] }}">{{ tag[0] }}({{ tag[1].size }})</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <h4 class="leaf_h">
+                    分类
+                </h4>
+                <ul class="leaf_class">
+                    {% for category in site.categories %}
+                        <li>
+                            <a href="/categories/{{ category[0] }}">{{ category[0] }}({{ category[1].size }})</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
 </div>

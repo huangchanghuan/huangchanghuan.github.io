@@ -1,0 +1,23 @@
+<div id="content" class="row clearfix star-main">
+    <!--main right-->
+    <div class="col-md-8 column main-right index-main" >
+        {{content}}
+    </div>
+    <!--main left-->
+    <div class="col-md-4 column main-left" >
+        <div class="row-fluid">
+            <div class="span12">
+                <h4 class="leaf_h">
+                    近期文章
+                </h4>
+                <ul class="leaf_class">
+                    {% for post in site.posts  limit:5  %}
+                        <li>
+                            <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
