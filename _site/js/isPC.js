@@ -14,7 +14,8 @@ function IsPC() {
 }
 
 (function(){
-    if(IsPC()){//如果是电脑
+
+    if(true){//如果是电脑
 
         console.log("the device  is PC !")
         //所有main-right 样式

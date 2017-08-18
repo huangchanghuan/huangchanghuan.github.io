@@ -14,6 +14,7 @@ function IsPC() {
 }
 
 (function(){
+
     if(true){//如果是电脑
 
         console.log("the device  is PC !")
