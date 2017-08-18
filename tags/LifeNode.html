@@ -3,10 +3,10 @@ layout: tag
 title: Photos-HuangChanghuan.com
 ---
 {% for tag in site.tags %}
-{% if  tag[0]=='生活' %}
+{% if  {{page.url}} contains tag[0] %}
 {% for post in tag.last %}
 <div class="article-wrap">
-    <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}{{page.url}}</a></h2>
+    <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>{{ post.date | date_to_string }}</span>
         <span><i class="fa fa-book"></i><a href="/categories/photos">{{tag[0]}}</a></span>
