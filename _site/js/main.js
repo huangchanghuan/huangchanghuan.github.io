@@ -18,6 +18,11 @@ function dofloat() {
     if( $(".do_hide").hasClass("float_hide")){
         console.log("存在浮动");
         $(".do_hide").removeClass("float_hide");
+        var dv = $('#item-bar');
+        if (dv.css('position') != 'static') {
+            dv.css({'position': 'static'});
+            dv.removeClass("item-bar-fix");
+        }
         $ (window).unbind ('scroll');
     }else{
         console.log("不存在浮动");
