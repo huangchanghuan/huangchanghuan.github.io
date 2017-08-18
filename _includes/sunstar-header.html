@@ -17,8 +17,9 @@
         <ul class="nav nav-pills" id="header-nav">
             <li role="presentation" {% if page.title=='Home-HuangChanghuan.com' %}class="active"{% endif %}><a href="/">首页</a></li>
             <li role="presentation"  {% if page.title=='Archive-HuangChanghuan.com' %}class="active"{% endif %}><a href="/archive">归档</a></li>
+            <li role="presentation"  {% if page.title=='Search-HuangChanghuan.com' %}class="active"{% endif %}><a href="/search">站内搜索</a></li>
             <!--<li role="presentation"  {% if page.title=='Category-HuangChanghuan.com' %}class="active"{% endif %}><a href="/category">分类</a></li>-->
-            <li role="presentation" {% if page.title=='About-HuangChanghuan.com' %}class="active"{% endif %}><a href="/about">更多</a></li>
+            <li role="presentation" {% if page.title=='About-HuangChanghuan.com' %}class="active"{% endif %}><a href="/about">个人</a></li>
             <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">More<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
@@ -37,30 +38,6 @@
                         <a href="/about">To contact me</a>
                     </li>
                 </ul>
-            </li>
-            <li role="presentation">
-                <style type="text/css">
-                    #so360{white-space:nowrap}
-                    #so360 form{margin:0;padding:0}
-                    #so360_keyword{width:307px;height:24px;line-height:24px;font:14px arial;padding:
-                            2px 5px;margin-right:5px;border:2px solid #1B84E9;outline:0;vertical-align:middle}
-                    #so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
-                    no-repeat 236px center}
-                    #so360_submit{width:70px;height:32px;border:0;color:#fff;
-                        background:#1B84E9;font-weight:bold;font:bold 14px arial;padding:0;
-                        padding-top:3px\9;cursor:pointer;
-                        vertical-align:middle}
-                </style>
-                <div id="so360">
-                    <form action="http://www.so.com/s" target="_blank" id="so360form">
-                        <input type="text" autocomplete="off" name="q" id="so360_keyword">
-                        <input type="submit" id="so360_submit" value="搜 索">
-                        <input type="hidden" name="ie" value="utf8">
-                        <input type="hidden" name="src" value="zz_huangchanghuan.github.io">
-                        <input type="hidden" name="site" value="huangchanghuan.github.io">
-                        <input type="hidden" name="rg" value="1">
-                    </form>
-                </div>
             </li>
         </ul>
     </nav>
