@@ -42,6 +42,9 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 
 #### 关于搜索和siteMap
 目前站内搜索用google的，国内的只有360搜索支持https（之前试过百度的http加载不出来），但是360并没有爬我的网站数据，上传siteMap的话估计也得两三个月能用，所以搜索不到站内的文章，看看以后能不能换360，毕竟google要翻墙。最后是sitemap不要经常变动，因为一般搜索引擎几个月才帮你更新一次sitemap，导致搜索不到自己网站的地址。
+
+#### 关于https和http评论系统
+ 目前github Pages都是https请求，底层使用TLS加密，所以整个网站访问都不应该出现http协议的请求，因为http被中间人劫持获取了cookie一样会照成安全问题。但是由于github Page是静态的，不可能实现评论功能，而我自己也不想搭建一个服务器支持评论，最方便的方法是使用第三方的评论系统，发现所有第三方系统都是http请求，所以如果浏览器（比如chrome就是了）严格执行https协议阻止http访问，是打不开评论功能的。个人感觉个人博客系统没有必要开https协议，哈哈，或许是我考虑安全不全面，哈哈，都是github的错。。。。。。
  
 ### 重构后的展示
 
@@ -60,6 +63,10 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
     </a>
 </div>
 
+### 最后送上暖呼呼的思维导图
+
+本网站的外观图copy了暖呼呼，不错的思维导图博客站，不过博主已经很久没有更新，但博主微博还是挺活跃的。[网站地址：http://www.nuanhuhu.net/](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html "Title")
+
 ### 参考资料
 
 1.[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html "Title")
@@ -77,6 +84,10 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 7.[google站长管理，上传siteMap](https://www.google.com/webmasters/tools/home?hl=en "Title")
 
 8.[自适应网页设计（Responsive Web Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html "Title")
+
+9.[第三方评论系统之一  友言](http://www.uyan.cc/login?redirect_url=http://www.uyan.cc/comment/content?domain=huangchanghuan.github.io&stat=all "Title")
+
+
 
 
 
