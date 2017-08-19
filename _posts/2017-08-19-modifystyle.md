@@ -65,7 +65,7 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 
 ### 最后送上暖呼呼的思维导图
 
-本网站的外观图copy了暖呼呼，不错的思维导图博客站，不过博主已经很久没有更新，但博主微博还是挺活跃的。[网站地址：http://www.nuanhuhu.net/](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html "Title")
+本网站的外观图copy了暖呼呼，不错的思维导图博客站，不过博主已经很久没有更新，但博主微博还是挺活跃的。[网站地址：http://www.nuanhuhu.net/](http://www.nuanhuhu.net/ "Title")
 
 ### 参考资料
 
