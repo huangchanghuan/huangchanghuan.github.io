@@ -43,7 +43,7 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 #### 关于搜索和siteMap
 目前站内搜索用google的，国内的只有360搜索支持https（之前试过百度的http加载不出来），但是360并没有爬我的网站数据，上传siteMap的话估计也得两三个月能用，所以搜索不到站内的文章，看看以后能不能换360，毕竟google要翻墙。最后是sitemap不要经常变动，因为一般搜索引擎几个月才帮你更新一次sitemap，导致搜索不到自己网站的地址。
  
-### 整理后的成果展示
+### 重构后的展示
 
 <div class="article-gallery clearfix" itemscope itemtype="http://schema.org/ImageGallery" >
     <a href="/img/modifystyle/个人网站.jpg" data-size="810x1440"
@@ -72,9 +72,11 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 
 5.[siteMap生成网站](https://www.xml-sitemaps.com/ "Title")
 
-5.[google站内搜索](https://cse.google.com/cse/all "Title")
+6.[google站内搜索](https://cse.google.com/cse/all "Title")
 
-5.[google站长管理，上传siteMap](https://www.google.com/webmasters/tools/home?hl=en "Title")
+7.[google站长管理，上传siteMap](https://www.google.com/webmasters/tools/home?hl=en "Title")
+
+8.[自适应网页设计（Responsive Web Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html "Title")
 
 
 
