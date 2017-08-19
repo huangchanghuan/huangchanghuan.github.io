@@ -31,7 +31,7 @@ description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jek
 ### 问题总结
 
 ####  关于 PC端和手机端网页布局：
-之前就得网站网页宽度都是自适应，head标签内添加
+重构之前的网站网页宽度都是自适应，head标签内添加
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
