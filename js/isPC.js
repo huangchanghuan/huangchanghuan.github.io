@@ -17,7 +17,7 @@ function IsPC() {
 
     if(true){//如果是电脑
 
-        console.log("the device  is PC !")
+        console.log("本人专注java web后台开发,架构,微服务,向往更好的机会,有需要请联系我:changhuan.huang@gmail.com")
         //所有main-right 样式
         var main_right=document.getElementsByClassName("main-right");
         main_right[0].style.padding = "0 20%";
