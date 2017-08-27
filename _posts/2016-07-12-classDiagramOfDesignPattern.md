@@ -5,7 +5,7 @@ category: designpattern
 tags: ['DesignPattern','UML']
 excerpt_separator: <!--more-->
 description: '<p>看懂UML类图,设计模式中类的6种关系:</p>
-<a href="/designPattern/2016/07/12/classDiagramOfDesignPattern">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/designpattern/2016/07/12/classDiagramOfDesignPattern">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
