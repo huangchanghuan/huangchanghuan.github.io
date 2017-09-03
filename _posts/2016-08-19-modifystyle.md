@@ -5,7 +5,7 @@ category: life
 tags: ['Github']
 excerpt_separator: <!--more-->
 description: '<p>刚开始接触github Pages的时候，学习Liquid语言和Jekyll生成静态网站技术后，然后自己编写了网站，发布在github上面。由于Jekyll制作的是静态网站，不利一些动态功能制作，所以当时只简单的对文章做了分类的展示，缺少动态分类，动态标签，动态目录，动态时间归档，站内搜索，文章评论等功能。这几天花了点精力，重构网站，把缺少的功能都补上了，感觉把github Pages做成了一个资料库。</p>
-<a href="/life/2017/08/19/modifystyle">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/life/2016/08/19/modifystyle">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
