@@ -2,7 +2,7 @@
 layout: post
 title: 谈谈设计模式
 category: designpattern
-tags: ['DesignPattern']
+tags: ['Designpattern']
 excerpt_separator: <!--more-->
 description: '<p>面向对象的程序设计中，对象的依赖、关联、聚合、和组合这四种关系比较容易混淆。他们在编程语言中的体检基本相同的，仅仅是在语义上有所区别，语义指的是上下文环境、特定情景等。下面来详细谈论下Java是如何提现依赖、关联、聚合、和组合。</p>
 <a href="/designpattern/2017/07/14/aboutDesignPattern">View Detail<i class="fa fa-angle-right"></i></a>'
@@ -13,7 +13,7 @@ description: '<p>面向对象的程序设计中，对象的依赖、关联、聚
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
         <span><i class="fa fa-book"></i><a href="/categories/designpattern">designpattern</a></span><!--分类-->
-        <span><i class="fa fa-tags"></i><a href="/tags/DesignPattern"> DesignPattern</a></span><!--标签-->
+        <span><i class="fa fa-tags"></i><a href="/tags/Designpattern"> Designpattern</a></span><!--标签-->
     </p>
  </div>
  
