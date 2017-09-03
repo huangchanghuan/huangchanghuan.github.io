@@ -8,52 +8,117 @@
 
 <url>
   <loc>https://huangchanghuan.github.io/</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/archive</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/search</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/about</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/life/2017/08/19/modifystyle</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/20/OpenClosedPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/categories/life</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <loc>https://huangchanghuan.github.io/categories/designpattern</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/tags/Github</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <loc>https://huangchanghuan.github.io/tags/DesignPatternSixPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/javascript/2017/02/19/city-picker</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/19/LawOfDemeter</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/18/InterfaceSegregationPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/17/DependenceInversionPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/16/LiskovSubstitutionPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/javascript</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/categories/life</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/Js</loc>
-  <lastmod>2017-08-19T15:16:45+00:00</lastmod>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/tags/Github</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/tags/DesignPattern</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/tags/UML</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/15/singleResponsibilityPrinciple</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/14/aboutDesignPattern</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/13/differenceInClassRelation</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/12/classDiagramOfDesignPattern</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/life/2016/08/19/modifystyle</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/javascript/2015/07/19/city-picker</loc>
+  <lastmod>2017-09-03T10:45:13+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
