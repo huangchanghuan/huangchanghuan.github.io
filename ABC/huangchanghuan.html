@@ -4,6 +4,18 @@
     <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="https://img00.zhaopin.cn/2012/css/reset.min.css" media="all"/>
     <link rel="stylesheet" type="text/css" href="https://i.zhaopin.com/Content/css/resume_preview.css" media="all"/>
+    <!--图片展示-->
+    <script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/photoswipe.css">
+    <link rel="stylesheet" href="/css/default-skin/default-skin.css">
+    <script src="/js/photoswipe.min.js"></script>
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+    <link href="/css/main.css" rel="stylesheet">
+    <style type="text/css">
+        .project-experience{
+            clear: both;
+        }
+    </style>
 </head>
 <body>
 <div class="resumeBody">
@@ -36,7 +48,8 @@
         <dt>
         <h5>工作经历</h5></dt>
         <dd>
-            <div class="work-experience"><p>2015/12 --
+            <div class="work-experience">
+                <p>2015/12 --
                 至今
             </p><h6>广州众鑫达科技有限公司<span class="ver-line">|</span>java开发工程师</h6>
                 <p><span>
@@ -51,6 +64,76 @@
         <dt>
         <h5>项目经验</h5></dt>
         <dd>
+            <!-- =========================惠纷享图================================
+            <div class="article-gallery clearfix" style="width:100px;margin: 0px 0px 1em;" itemscope itemtype="http://schema.org/ImageGallery" >
+                <a href="/img/hfx/1.jpg" data-size="810x1440"
+                   data-med="/img/hfx/1.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/1.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/2.jpg" data-size="810x1440"
+                   data-med="/img/hfx/2.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/2.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/3.jpg" data-size="810x1440"
+                   data-med="/img/hfx/3.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/3.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/4.jpg" data-size="810x1440"
+                   data-med="/img/hfx/4.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/4.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/6.jpg" data-size="810x1440"
+                   data-med="/img/hfx/6.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/6.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/7.png" data-size="810x1440"
+                   data-med="/img/hfx/7.png" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/7.png" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/8.jpg" data-size="810x1440"
+                   data-med="/img/hfx/8.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/8.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/9.jpg" data-size="810x1440"
+                   data-med="/img/hfx/9.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/9.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/10.jpg" data-size="810x1440"
+                   data-med="/img/hfx/10.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/10.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/11.jpg" data-size="810x1440"
+                   data-med="/img/hfx/11.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/11.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+                <a href="/img/hfx/12.jpg" data-size="810x1440"
+                   data-med="/img/hfx/12.jpg" data-med-size="810x1440" data-author="(惠纷享)"
+                   class="demo-gallery__img--main" >
+                    <img src="/img/hfx/12.jpg" alt="" />
+                    <figure style="display: none;"> </figure>
+                </a>
+            </div>-->
+
             <div class="project-experience"><p>2015/12 --
                 至今
             </p><h6>惠纷享App</h6>
@@ -64,7 +147,16 @@
                     + CGLib(事务管理)+ Struts2作为系统框架），对惠纷享进行管理，权限，商品，订单，广告等业务;<br/>2.AppServer接口系统（Carp（持久化框架） + CGLib(事务管理)+ Servlet作为系统框架），为app提供接口访问;<br/>3.CouponMonitor监控系统采用Carp（持久化框架），为其他项目模块提供接口，定时任务部署于Linux定时任务；<br/>4.JDMonitor京东消息监控系统,实时监控京东商品价格变动等，涉及多个项目的数据库，比较重要<br/>
 
                     <strong>目前惠纷享APP具有的功能模块(部分):</strong><br/>1.酒店预订(深圳捷旅)<br/>2.旅行模块(目前具有海外旅游,国内旅游待开发)<br/>3.洗车模块(已下架)<br/>4.电影模块(上海友票)<br/>5.实物商品模块(公司自营商品)<br/>6.京东商品(与京东合作的商品)<br/>7.美护体检商品(线上预订,可以到实体店消费)<br/>8.发现文章(作者发布文章,后来引进布本公司SDK,后台配置可切换)<br/>9.优惠券红包系统(购买商品可以使用红包,优惠券,代金券)<br/>10.赠品系统(各个模块之间实现商品互赠)<br/>11.促销返现系统(被推荐人购买商品,推荐人可以获取奖励)<br/>12.营销团队分销系统(可以登录web分销管理系统)<br/>13.全局搜索和局部模块搜索功能<br/>14.小米消息推送功能
-                </p></div>
+                </p>
+
+
+            </div>
+
+
+
+
+
+
 
 
             <div class="project-experience"><p>2016/06 --
@@ -107,5 +199,52 @@
     </dl>
     <input id="neturlparam" type="hidden" value="AppId=1&Id=652667425&Timestamp=1506670235&Callback=&signature=9D4C05BE69028F47A5385511CDC92A7C"/>
 </div>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/photoSwipes-style.js"></script>
 </body>
 </html>
