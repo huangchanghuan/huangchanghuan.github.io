@@ -28,7 +28,7 @@ elasticsearch学习临时记录,以后整理
 
 ### `2.1 删除索引类型下的所有数据`
 
-    curl -X DELETE 121.201.16.7:9200/couponsdb/ss_hj_product/_query?pretty
+    curl -X DELETE localhost:9200/couponsdb/ss_hj_product/_query?pretty
      -d '{ "query": { "match_all": {} } }'
 
 ### `2.1 删除索引类型下的所有数据`
