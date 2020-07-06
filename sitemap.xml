@@ -9,152 +9,172 @@
 
 <url>
   <loc>https://huangchanghuan.github.io/</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/archive</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/search</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/about</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/software/2020/07/06/ideaCracking</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/categories/software</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/tags/Software</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/searchengine/2017/11/16/elasticsearch1</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/searchengine</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/elasticsearch</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/20/OpenClosedPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/designpattern</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/DesignPatternSixPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/19/LawOfDemeter</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/page2/</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/page3/</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/page4/</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/categories/page5/</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/19/LawOfDemeter</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/18/InterfaceSegregationPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/17/DependenceInversionPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/javascript</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/categories/life</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/Js</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/Github</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/Designpattern</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/tags/UML</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://huangchanghuan.github.io/designpattern/2017/07/17/DependenceInversionPrinciple</loc>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/16/LiskovSubstitutionPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/15/singleResponsibilityPrinciple</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/14/aboutDesignPattern</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/13/differenceInClassRelation</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/designpattern/2017/07/12/classDiagramOfDesignPattern</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/life/2016/08/19/modifystyle</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/javascript/2015/07/19/city-picker</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://huangchanghuan.github.io/index.html</loc>
-  <lastmod>2020-06-14T02:52:36+00:00</lastmod>
+  <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
