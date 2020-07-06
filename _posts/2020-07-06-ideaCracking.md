@@ -4,7 +4,7 @@ title: IDEA正版激活
 category: software
 tags: ['Software']
 excerpt_separator: <!--more-->
-description: '2020.1.2 IDEA 正版激活，IntelliJ IDEA 注册码，激活码'
+description: '<p>2020.1.2 IDEA 正版激活，IntelliJ IDEA 注册码，激活码</p><a href="/life/2020/07/06/ideaCracking">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
