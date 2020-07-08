@@ -25,16 +25,13 @@
         <div class="row-fluid do_hide">
             <div class="span12">
                 <h4 class="leaf_h">
-                    分类
+                    分类1
                 </h4>
                 <ul class="leaf_class">
                     {% for category in site.categories %}
 
-                          {{ category[0] }} {{ category[1] }}
+                    {{ page.category }}
 
-                    {{ page.category }}{{ post.category }}{{ category }}
-
-                    {{ page }}   {{ site }}
                             {% if  {{page.url}} contains  category[0] %}
                                 <li>
                                         <a href="/categories/{{ category[0] }}">{{ category[0] }}({{ category[1].size }})</a>
