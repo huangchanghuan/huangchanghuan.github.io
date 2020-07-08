@@ -2,12 +2,14 @@
 layout: tag
 title: Photos-HuangChanghuan.com
 tags: ['设计模式']
-
+nickname: peter
 ---
 
 
-
+12
 {% for tag in site.tags %}
+
+{{page.nickname}}
 
 {% if page.tags contains tag[0] %}
 {% for post in tag.last %}
