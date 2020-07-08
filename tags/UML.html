@@ -1,9 +1,10 @@
 ---
 layout: tag
 title: Photos-HuangChanghuan.com
+tags: ['UMl']
 ---
 {% for tag in site.tags %}
-{% if  {{page.url}} contains tag[0] %}
+{% if  page.tags contains tag[0] %}
 {% for post in tag.last %}
 <div class="article-wrap">
     <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
