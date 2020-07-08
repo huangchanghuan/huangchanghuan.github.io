@@ -1,9 +1,10 @@
 ---
 layout: category
 title: Photos-HuangChanghuan.com
+category: 设计模式
 ---
 {% for category in site.categories %}
-{% if  category[0]=='设计模式' %}
+{% if  category[0]==page.category %}
 {% for post in category.last %}
 <div class="article-wrap">
     <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
