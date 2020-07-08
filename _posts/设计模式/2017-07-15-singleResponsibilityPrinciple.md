@@ -5,7 +5,7 @@ category: 设计模式
 tags: ['设计模式六大原则']
 excerpt_separator: <!--more-->
 description: '<p>不要存在多于一个导致类变更的原因。通俗的说，即一个类只负责一项职责。</p>
-<a href="/设计模式/2017/07/15/singleResponsibilityPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/singleResponsibilityPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">

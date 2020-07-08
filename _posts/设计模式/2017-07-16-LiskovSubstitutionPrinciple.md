@@ -5,7 +5,7 @@ category: 设计模式
 tags: ['设计模式六大原则']
 excerpt_separator: <!--more-->
 description: '<p>在面向对象的程序设计中，里氏替换原则（Liskov Substitution principle）是对子类型的特别定义。它由芭芭拉·利斯科夫（Barbara Liskov）在1987年在一次会议上名为“数据的抽象与层次”的演说中首先提出。</p>
-<a href="/设计模式/2017/07/16/LiskovSubstitutionPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/LiskovSubstitutionPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
