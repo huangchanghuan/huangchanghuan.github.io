@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式六大原则(4):接口隔离原则
 category: 设计模式
-tags: ['DesignPatternSixPrinciple']
+tags: ['设计模式六大原则']
 excerpt_separator: <!--more-->
 description: '<p>接口隔离原则（英语：interface-segregation principles， 缩写：ISP）指明没有客户（client）应该被迫依赖于它不使用方法。</p>
 <a href="/设计模式/2017/07/18/InterfaceSegregationPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
@@ -13,7 +13,7 @@ description: '<p>接口隔离原则（英语：interface-segregation principles�
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
         <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
-        <span><i class="fa fa-tags"></i><a href="/tags/DesignPatternSixPrinciple"> DesignPatternSixPrinciple</a></span><!--标签-->
+        <span><i class="fa fa-tags"></i><a href="/tags/设计模式六大原则"> 设计模式六大原则</a></span><!--标签-->
     </p>
  </div>
  

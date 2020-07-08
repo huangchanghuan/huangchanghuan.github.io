@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式六大原则(5):迪米特法则
 category: 设计模式
-tags: ['DesignPatternSixPrinciple']
+tags: ['设计模式六大原则']
 excerpt_separator: <!--more-->
 description: '<p>一个简单例子是，人可以命令一条狗行走（walk），但是不应该直接指挥狗的腿行走，应该由狗去指挥控制它的腿如何行走。</p>
 <a href="/设计模式/2017/07/19/LawOfDemeter">View Detail<i class="fa fa-angle-right"></i></a>'
@@ -13,7 +13,7 @@ description: '<p>一个简单例子是，人可以命令一条狗行走（walk�
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
         <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
-        <span><i class="fa fa-tags"></i><a href="/tags/DesignPatternSixPrinciple"> DesignPatternSixPrinciple</a></span><!--标签-->
+        <span><i class="fa fa-tags"></i><a href="/tags/设计模式六大原则"> 设计模式六大原则</a></span><!--标签-->
     </p>
  </div>
  

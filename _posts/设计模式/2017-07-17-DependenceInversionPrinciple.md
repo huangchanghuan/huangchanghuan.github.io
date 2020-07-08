@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式六大原则(3):依赖反转原则
 category: 设计模式
-tags: ['DesignPatternSixPrinciple']
+tags: ['设计模式六大原则']
 excerpt_separator: <!--more-->
 description: '<p>依赖反转原则（Dependency inversion principle，DIP）是指一种特定的解耦（传统的依赖关系创建在高层次上，而具体的策略设置则应用在低层次的模块上）形式，使得高层次的模块不依赖于低层次的模块的实现细节，依赖关系被颠倒（反转），从而使得低层次模块依赖于高层次模块的需求抽象。</p>
 <a href="/设计模式/2017/07/17/DependenceInversionPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
@@ -13,7 +13,7 @@ description: '<p>依赖反转原则（Dependency inversion principle，DIP）是
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
         <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
-        <span><i class="fa fa-tags"></i><a href="/tags/DesignPatternSixPrinciple"> DesignPatternSixPrinciple</a></span><!--标签-->
+        <span><i class="fa fa-tags"></i><a href="/tags/设计模式六大原则"> 设计模式六大原则</a></span><!--标签-->
     </p>
  </div>
  
