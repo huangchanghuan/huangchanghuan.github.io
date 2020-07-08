@@ -1,18 +1,18 @@
 ---
 layout: post
 title: 设计模式六大原则(6):开闭原则
-category: designpattern
+category: 设计模式
 tags: ['DesignPatternSixPrinciple']
 excerpt_separator: <!--more-->
 description: '<p>在面向对象编程领域中，开闭原则规定“软件中的对象（类，模块，函数等等）应该对于扩展是开放的，但是对于修改是封闭的”，这意味着一个实体是允许在不改变它的源代码的前提下变更它的行为。该特性在产品化的环境中是特别有价值的，在这种环境中，改变源代码需要代码审查，单元测试以及诸如此类的用以确保产品使用质量的过程。遵循这种原则的代码在扩展时并不发生改变，因此无需上述的过程。</p>
-<a href="/designpattern/2017/07/20/OpenClosedPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/设计模式/2017/07/20/OpenClosedPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
     <h1 id="t1" class="article-title">设计模式六大原则(6):开闭原则</h1><!--标题-->
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
-        <span><i class="fa fa-book"></i><a href="/categories/designpattern">designpattern</a></span><!--分类-->
+        <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
         <span><i class="fa fa-tags"></i><a href="/tags/DesignPatternSixPrinciple"> DesignPatternSixPrinciple</a></span><!--标签-->
     </p>
  </div>

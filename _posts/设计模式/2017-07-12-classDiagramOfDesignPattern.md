@@ -1,18 +1,18 @@
 ---
 layout: post
 title: UML类图和设计模式中类的关系
-category: designpattern
+category: 设计模式
 tags: ['Designpattern','UML']
 excerpt_separator: <!--more-->
 description: '<p>看懂UML类图,设计模式中类的6种关系:</p>
-<a href="/designpattern/2017/07/12/classDiagramOfDesignPattern">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/设计模式/2017/07/12/classDiagramOfDesignPattern">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
     <h1 id="t1" class="article-title">UML类图和设计模式中类的关系</h1><!--标题-->
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
-        <span><i class="fa fa-book"></i><a href="/categories/designpattern">designpattern</a></span><!--分类-->
+        <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
         <span><i class="fa fa-tags"></i><a href="/tags/Designpattern"> Designpattern</a><a href="/tags/UML"> UML</a></span><!--标签-->
     </p>
  </div>

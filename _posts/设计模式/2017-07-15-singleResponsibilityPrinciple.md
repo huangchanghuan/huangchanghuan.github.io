@@ -1,18 +1,18 @@
 ---
 layout: post
 title: 设计模式六大原则(1):单一职责原则
-category: designpattern
+category: 设计模式
 tags: ['DesignPatternSixPrinciple']
 excerpt_separator: <!--more-->
 description: '<p>不要存在多于一个导致类变更的原因。通俗的说，即一个类只负责一项职责。</p>
-<a href="/designpattern/2017/07/15/singleResponsibilityPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/设计模式/2017/07/15/singleResponsibilityPrinciple">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
     <h1 id="t1" class="article-title">设计模式六大原则(1):单一职责原则</h1><!--标题-->
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
-        <span><i class="fa fa-book"></i><a href="/categories/designpattern">designpattern</a></span><!--分类-->
+        <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
         <span><i class="fa fa-tags"></i><a href="/tags/DesignPatternSixPrinciple"> DesignPatternSixPrinciple</a></span><!--标签-->
     </p>
  </div>

@@ -58,12 +58,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/20/OpenClosedPrinciple</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/20/OpenClosedPrinciple</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/categories/designpattern</loc>
+  <loc>https://huangchanghuan.github.io/categories/设计模式</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -93,12 +93,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/19/LawOfDemeter</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/19/LawOfDemeter</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/18/InterfaceSegregationPrinciple</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/18/InterfaceSegregationPrinciple</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -133,32 +133,32 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/17/DependenceInversionPrinciple</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/17/DependenceInversionPrinciple</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/16/LiskovSubstitutionPrinciple</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/16/LiskovSubstitutionPrinciple</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/15/singleResponsibilityPrinciple</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/15/singleResponsibilityPrinciple</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/14/aboutDesignPattern</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/14/aboutDesignPattern</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/13/differenceInClassRelation</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/13/differenceInClassRelation</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://huangchanghuan.github.io/designpattern/2017/07/12/classDiagramOfDesignPattern</loc>
+  <loc>https://huangchanghuan.github.io/设计模式/2017/07/12/classDiagramOfDesignPattern</loc>
   <lastmod>2020-07-06T04:42:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>

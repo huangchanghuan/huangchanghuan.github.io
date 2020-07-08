@@ -1,18 +1,18 @@
 ---
 layout: post
 title: 依赖、关联、聚合和组合的区别
-category: designpattern
+category: 设计模式
 tags: ['Designpattern','UML']
 excerpt_separator: <!--more-->
 description: '<p>面向对象的程序设计中，对象的依赖、关联、聚合、和组合这四种关系比较容易混淆。他们在编程语言中的体检基本相同的，仅仅是在语义上有所区别，语义指的是上下文环境、特定情景等。下面来详细谈论下Java是如何提现依赖、关联、聚合、和组合。</p>
-<a href="/designpattern/2017/07/13/differenceInClassRelation">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/设计模式/2017/07/13/differenceInClassRelation">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
     <h1 id="t1" class="article-title">依赖、关联、聚合和组合之间的区别</h1><!--标题-->
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>12 July 2016</span>
-        <span><i class="fa fa-book"></i><a href="/categories/designpattern">designpattern</a></span><!--分类-->
+        <span><i class="fa fa-book"></i><a href="/categories/设计模式">设计模式</a></span><!--分类-->
         <span><i class="fa fa-tags"></i><a href="/tags/Designpattern"> Designpattern</a><a href="/tags/UML"> UML</a></span><!--标签-->
     </p>
  </div>

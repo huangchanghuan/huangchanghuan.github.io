@@ -5,7 +5,7 @@ category: searchengine
 tags: ['elasticsearch']
 excerpt_separator: <!--more-->
 description: '<p>搜索引擎searchEngine,学习记录</p>
-<a href="/designpattern/2017/11/16/elasticsearch1">View Detail<i class="fa fa-angle-right"></i></a>'
+<a href="/设计模式/2017/11/16/elasticsearch1">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
