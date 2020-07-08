@@ -1,6 +1,6 @@
 #permalink: /:categories/:year/:month/:day/:title
 permalink: /:title
 gems: [jekyll-paginate]
-paginate: 3
+paginate: 8
 paginate_path: "/page:num"
 markdown: kramdown
