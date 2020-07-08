@@ -2,7 +2,15 @@
 layout: tag
 title: Photos-HuangChanghuan.com
 ---
+
+
+11
 {% for tag in site.tags %}
+
+
+{{page.tags}}
+
+
 {% if  {{page.url}} contains tag[0] %}
 {% for post in tag.last %}
 <div class="article-wrap">
