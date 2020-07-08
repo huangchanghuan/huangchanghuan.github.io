@@ -26,7 +26,7 @@
                 </h4>
                 <ul class="leaf_class">
                     {% for tag in site.tags %}
-                        {% if  {{page.url}} contains tag[0] %}
+                        {% if  page.tags contains tag[0] %}
                             <li>
                                 <a href="/tags/{{ tag[0] }}">{{ tag[0] }}({{ tag[1].size }})</a>
                                     {% for post in tag.last %}
