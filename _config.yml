@@ -2,5 +2,5 @@
 permalink: /:title
 gems: [jekyll-paginate]
 paginate: 3
-paginate_path: "/categories/page:num"
+paginate_path: "/page:num"
 markdown: kramdown
