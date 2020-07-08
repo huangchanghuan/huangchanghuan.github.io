@@ -15,7 +15,7 @@
                             {% if   page.category  contains  category[0] %}
                                     <li>
                                             <a href="/categories/{{ category[0] }}">{{ category[0] }}({{ category[1].size }})</a>
-                                                {% for post in category.last %}
+                                                {% for post in category.last   reversed %}
                                                     <ul>
                                                         <li>
                                                             <a href="{{site.baseurl}}{{post.url}}" style="display: block">{{post.title}}</a>

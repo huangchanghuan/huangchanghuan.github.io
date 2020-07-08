@@ -5,7 +5,7 @@ category: life
 ---
 {% for category in site.categories %}
 {% if  category[0]==page.category %}
-{% for post in category.last %}
+{% for post in category.last   reversed %}
 <div class="article-wrap">
     <h2 class="article-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
     <p class="article-attrs">
