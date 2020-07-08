@@ -27,7 +27,7 @@
                 <div class="leaf_class">
                     {% for tag in site.tags %}
                         <a href="/tags/{{ tag[0] }}">{{ tag[0] }}({{ tag[1].size }})</a>
-                        {% for post in tag.last %}
+                        {% for post in tag.last reversed %}
                         <ul><li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li></ul>
                         {% endfor %}
                     {% endfor %}

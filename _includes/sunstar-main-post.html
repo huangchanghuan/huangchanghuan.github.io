@@ -58,7 +58,7 @@
                     {% for tag in site.tags %}
                             {% if  page.tags  contains  tag[0] %}
                                 <li ><a href="/tags/{{ tag[0] }}">{{ tag[0] }}({{ tag[1].size }})</a>
-                                        {% for post in tag.last %}
+                                        {% for post in tag.last reversed %}
                                         <ul>
                                             <li>
                                                 <a href="{{site.baseurl}}{{post.url}}" style="display: block">{{post.title}}</a>
