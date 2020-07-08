@@ -1,17 +1,17 @@
 ---
 layout: post
 title: IDEA正版激活
-category: 软件
+category: software
 tags: ['Software']
 excerpt_separator: <!--more-->
-description: '<p>2020.1.2 IDEA 正版激活，IntelliJ IDEA 注册码，激活码</p><a href="/软件/2020/07/06/ideaCracking">View Detail<i class="fa fa-angle-right"></i></a>'
+description: '<p>2020.1.2 IDEA 正版激活，IntelliJ IDEA 注册码，激活码</p><a href="/life/2020/07/06/ideaCracking">View Detail<i class="fa fa-angle-right"></i></a>'
 ---
 <!--more-->
 <div class="article-wrap">
     <h1 id="t1" class="article-title">2020.1.2 IDEA 正版激活，IntelliJ IDEA 注册码，2020.1.2 IDEA 激活码</h1><!--标题-->
     <p class="article-attrs">
         <span><i class="fa fa-clock-o"></i>06 July 2020</span>
-        <span><i class="fa fa-book"></i><a href="/categories/软件">software</a></span><!--分类-->
+        <span><i class="fa fa-book"></i><a href="/categories/software">software</a></span><!--分类-->
         <span><i class="fa fa-tags"></i><a href="/tags/Software"> Software</a></span><!--标签-->
     </p>
  </div>
